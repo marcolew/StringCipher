@@ -1,7 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Marco Lewandowski</Authors>
+    <Description>Simple static class to encrypt and decrypt strings with a passphrase</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/marcolew/StringCipher</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/marcolew/StringCipher</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Encryption Decyrption StringCipher</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
 </Project>
